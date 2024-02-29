@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid green;
+}
+.typewriter {
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent line breaks */
+    animation: typewriter 6s steps(6) infinite;
+}
+
+@keyframes typewriter {
+    0% {
+        width: 0; /* Start with no width */
+    }
+    4.34%{
+        width: 1ch;
+    }
+    8.68%{
+        width: 2ch;
+    }
+   13.02%{
+    width: 3ch;
+   }
+   17.36%{
+    width: 4ch;
+   }
+   21.7%{
+    width: 5ch;
+   }
+   26.04%{
+    width: 6ch;
+   }
+   30.38%{
+    width: 7ch;
+   }
+   34.72%{
+    width: 8ch;
+   }
+   39.06%{
+    width: 9ch;
+   }
+   43.4%{
+    width: 10ch;
+   }
+   47.74%{
+        width:11ch ;
+   }
+   52.08%{
+    width: 12ch;
+   }
+   56.42%{
+    width: 13ch;
+   }
+   60.76%{
+    width: 14ch;
+   }
+   65.1%{
+    width: 15ch;
+   }
+   69.44%{
+    width: 16ch;
+   }
+   73.78%{
+    width: 17ch;
+   }
+   78.12%{
+    width: 18ch;
+   }
+   82.46%{
+    width: 19ch;
+   }
+   86.85%{
+    width: 20ch;
+   }
+   91.14%{
+    width: 21ch;
+   }
+   95.48%{
+    width: 22ch;
+   }
+   100%{
+    width: 23ch;
+   }
+}
+.navbar h2{
+    color: green;
+}
+.side{
+   flex-basis: 30%;
+   padding: 20px;
+}
+.side p{
+    color: green;
+}
+.middle{
+    flex-basis: 40%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+
+    
+}
+.middle video{
+    background-color: black;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 20px;
+
+}
+.inputbox{
+    margin-left: -420px;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+    color: darkgreen;
+}
+.middle p{
+    color: darkgreen;
+    display: inline-flex;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.btn button{
+    width: 80px;
+    height: 30px;
+    background-color:red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn button:hover{
+    transition: 0.3s ease-in-out;
+    background-color: darkgreen;
+    color: red;
+}
+.dynamic1{
+    display: none;
+}
